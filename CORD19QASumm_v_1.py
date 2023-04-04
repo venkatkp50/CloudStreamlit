@@ -6,24 +6,24 @@ import json
 import time
 import math
 import zipfile
-import logging
+#import logging
 import requests
 import rouge
 import nltk
 import numpy as np
 import pandas as pd
-import altair as alt
+#import altair as alt
 from PIL import Image
 import streamlit as st
-from pprint import pprint
+#from pprint import pprint
 from nltk.corpus import stopwords
-from copy import deepcopy
-from tqdm.notebook import tqdm
+#from copy import deepcopy
+#from tqdm.notebook import tqdm
 from streamlit_chat import message
 import seaborn as sns
 import matplotlib.pyplot as plt
 import re, os, string, random, requests
-from subprocess import Popen, PIPE, STDOUT
+#from subprocess import Popen, PIPE, STDOUT
 from haystack.nodes import EmbeddingRetriever
 from haystack.utils import clean_wiki_text
 from haystack.utils import convert_files_to_docs
@@ -38,7 +38,7 @@ from summarizer import Summarizer,TransformerSummarizer
 from bert_score import score
 import plotly.graph_objects as go
 import plotly.express as px
-import nltk
+#import nltk
 from nltk.translate.bleu_score import sentence_bleu
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.translate import meteor
