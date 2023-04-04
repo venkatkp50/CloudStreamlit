@@ -5,7 +5,6 @@ import re
 import json
 import time
 import math
-import spacy
 from spacy import displacy
 import zipfile
 import logging
