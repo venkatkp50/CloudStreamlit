@@ -8,7 +8,6 @@ import math
 import zipfile
 import logging
 import requests
-import openai
 import rouge
 import nltk
 import numpy as np
